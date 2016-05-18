@@ -9,3 +9,15 @@ highlighter: rouge
 
 exclude: ['deploy.sh', 'Gemfile', 'Gemfile.lock']
 gems: [jekyll-assets, uglifier]
+
+assets:
+  assets:
+    - "*.css"
+    - "*.scss"
+    - "*.js"
+    - "*.png"
+    - "*.jpg"
+    - "*.gif"
+  compress:
+    css: true
+    js: true
