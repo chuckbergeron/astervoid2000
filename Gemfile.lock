@@ -70,7 +70,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.1)
   jekyll-assets!
-  jekyll-watch
   kramdown
   rake
   rouge

@@ -12,12 +12,8 @@ gems: [jekyll-assets, uglifier]
 
 assets:
   assets:
-    - "*.css"
-    - "*.scss"
+    - "application.css"
     - "*.js"
     - "*.png"
     - "*.jpg"
     - "*.gif"
-  compress:
-    css: true
-    js: true
