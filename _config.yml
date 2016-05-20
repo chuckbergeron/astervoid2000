@@ -8,7 +8,7 @@ markdown: kramdown
 highlighter: rouge
 
 exclude: ['deploy.sh', 'Gemfile', 'Gemfile.lock']
-gems: [jekyll-assets, uglifier]
+gems: [jekyll-assets, uglifier, jekyll-slim, slim]
 
 assets:
   assets:

@@ -1,3 +1,37 @@
+.gradient {
+  background-image: linear-gradient(to bottom, rgba(40, 40, 40, 0.2), rgba(0, 0, 0, 0.7));
+}
+.navbar-main {
+  background: rgba(120, 120, 255, 0.1);
+}
+.background-concept-art {
+  background-image: url(asset_path('steam-capsule-8bit.png'));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 540px;
+  padding: 0;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+.main {
+  background-image: url(asset_path('body-bg.jpg'));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0;
+  padding: 0;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
 // // Font Families
 
 // $serif:       'adelle', Georgia, 'Times New Roman', serif;
