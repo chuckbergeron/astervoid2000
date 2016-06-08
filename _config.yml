@@ -16,6 +16,7 @@ assets:
     - "*.woff"
     - "*.woff2"
     - "*.js"
+    - "*.mp4"
     - "*.png"
     - "*.jpg"
     - "*.gif"

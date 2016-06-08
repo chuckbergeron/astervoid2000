@@ -1,5 +1,5 @@
 .gradient {
-  background-image: linear-gradient(to bottom, rgba(40, 40, 40, 0), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(to bottom, rgba(10, 131, 158, 0.2), rgba(0, 0, 0, 0.7));
 }
 .navbar-main {
   background: rgba(120, 120, 255, 0.1);
@@ -95,6 +95,31 @@
 // input:-ms-input-placeholder {
 //   color: #ccc;
 // }
+
+.text-block-1 {
+  margin: 200px 0 0;
+}
+.text-block-2 {
+  margin-top: 0 !important;
+}
+.ship-animation {
+  background: transparent;
+  height: 200px;
+  margin-left: -50px;
+  margin-right: -50px;
+  padding: 0;
+}
+.button.button-huge {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  @media (min-width: 992px) {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+}
+
+
 
 // button::-moz-focus-inner,
 // input::-moz-focus-inner {
@@ -376,36 +401,23 @@
 // }
 
 .footer {
-  color: rgba(#fff, .7);
-  font-size: 0.925em;
-  padding: .75em 0;
+  background: #1a282f;
+  color: #fff;
+  font-size: 30px;
+  padding: 30px 0 30px 0;
 
   a {
-    color: rgba(#fff, .7);
+    color: #bbb;
+
     &:hover,
     &:focus {
       color: #fff;
     }
   }
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    a {
-      display: block;
-      padding: .75em 1em .75em 0;
-    }
-    @media (min-width: 768px) {
-      li {
-        display: inline-block;
-      }
-    }
-  }
   p.copyright  {
     text-transform: initial;
     margin: 0;
-    padding: .75em 0;
   }
 }
 
