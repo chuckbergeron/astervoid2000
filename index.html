@@ -27,12 +27,11 @@ layout: application
         </div>
       </section>
 
-      <div class="section">
-        <div class="section background-dark ship-animation">
-          <video width="100%" height="200" preload autoplay>
-            <source src="{% asset_path pink-ship-flyby.mp4 %}" type="video/mp4;" />
-          </video>
-        </div>
+      <div class="section background-dark ship-animation">
+        <!-- autoplay only works on desktop, will need to use gif's instead (welcome to 1996) -->
+        <video width="100%" height="200" autobuffer loop preload autoplay>
+          <source src="{% asset_path pink-ship-flyby.mp4 %}" />
+        </video>
       </div>
 
       <section class="section text-center">
