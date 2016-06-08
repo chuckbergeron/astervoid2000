@@ -13,6 +13,8 @@ gems: [jekyll-assets, uglifier, jekyll-slim, slim]
 assets:
   assets:
     - "application.css"
+    - "*.woff"
+    - "*.woff2"
     - "*.js"
     - "*.png"
     - "*.jpg"

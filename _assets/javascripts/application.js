@@ -6,6 +6,6 @@ $(function($) {
     $rootNode   = $('html, body'),
     $footer     = $('footer');
 
-  $footer.find('.copyright-year').html('2015');
+  $footer.find('.copyright-year').html(new Date().getFullYear());
 
 });
