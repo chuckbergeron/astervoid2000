@@ -384,12 +384,13 @@ input[type=radio]:checked + label:before {
   }
 
   input {
-    background: transparent;
+    // background: transparent;
     border: 0;
     box-shadow: none;
-    color: $form-text-color;
-    height: 44px;
-    line-height: 44px;
+    color: black;
+    // color: $form-text-color;
+    // height: 44px;
+    // line-height: 44px;
     margin-bottom: 0;
     outline: none;
     padding-left: 10px;
@@ -400,6 +401,10 @@ input[type=radio]:checked + label:before {
       padding: 8px 15px;
     }
   }
+}
+.input :focus,
+.input :active {
+  background: white !important;
 }
 
 // input with icon
