@@ -11,6 +11,9 @@ label.label {
     }
   }
 }
+.buy_block {
+  margin-top: 15px;
+}
 .buy_subtext {
   clear: both;
   padding-top: 20px;
@@ -20,6 +23,7 @@ label.label {
   max-width: 25px;
 }
 .buy_subtext span {
+  color: #369;
   display: block;
   font-size: 20px;
   margin-top: -10px;
@@ -34,21 +38,45 @@ label.label {
   float: right;
 }
 .buy-wrapper {
+  background: #20323e;
+  height: 93px;
   margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100%;
 
   @media (min-width: 480px) {
+    height: 93px;
+    padding-left: 0;
+    padding-right: 0;
     width: 75%;
   }
   @media (min-width: 691px) {
     width: 50%;
   }
   @media (min-width: 778px) {
+    height: 103px;
     width: 45%;
   }
   @media (min-width: 1214px) {
     width: 33%;
   }
+}
+.claimed-wrapper {
+  background: #212631;
+  clear: both;
+  margin: 10px auto;
+  padding: 20px 0;
+  width: 20%;
+}
+.claimed-numbers {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: -5px;
+}
+.claimed-text {
+  color: #369;
+  font-size: 20px;
 }
 .text-regular {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;

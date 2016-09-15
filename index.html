@@ -19,8 +19,9 @@ layout: application
       <section class="section text-center">
         <div class="col-xs-12">
           <a id="astervoid2000-logo" class="navbar-brand internal" href="/" title="astervoid2000 logo"><img src="{% asset_path astervoid-2000-logo-highres-on-dark.png %}" alt="Astervoid 2000" class="img-responsive"></a>
+
           <h1>
-            First Access!
+            First Access
           </h1>
         </div>
       </section>
@@ -30,15 +31,22 @@ layout: application
       <section class="section text-center">
 
         <div class="col-xs-12 col-md-12 text-center">
-          <div class="buy-block">
+
+          <div class="claimed-numbers" id="claimed-numbers">
+            X / Y
+          </div>
+          <span class="claimed-text">keys remaining</span>
+
+          <div class="buy_block">
             <div class="buy-wrapper">
-              <a href="javascript:void(0)" id="buy_button" class="buy_button button button-huge block-mobile">
+              <a href="javascript:void(0)" id="buy_button" class="buy_button button button-huge">
                 BUY NOW
               </a>
-              <div class="buy_price" id="game_price">
-                $5
+              <div class="buy_price" id="buy_price">
+                $X.XX
               </div>
             </div>
+
             <div class="buy_subtext">
               <img src="{% asset_path os_win.png %}">
               <img src="{% asset_path os_mac.png %}">
