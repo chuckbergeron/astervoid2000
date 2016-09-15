@@ -32,14 +32,22 @@ label.label {
   font-size: 70px;
   float: right;
   padding: 20px 30px;
+
+  @media (max-width: 480px) {
+    padding: 20px 10px;
+  }
 }
 .buy_button {
   font-size: 30px;
   float: right;
+
+  @media (max-width: 480px) {
+    font-size: 20px !important;
+  }
 }
-.buy-wrapper {
+.buy_wrapper {
   background: #20323e;
-  height: 93px;
+  height: 77px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
@@ -89,6 +97,14 @@ label.label {
 .navbar-main {
   background: rgba(120, 120, 255, 0.1);
 }
+.youtube-trailer {
+  @media (max-width: 768px) {
+    iframe {
+      max-height: 250px;
+      max-width: 100%;
+    }
+  }
+}
 .background-concept-art {
   background-image: url(asset_path('trailer-background-8bit.jpg'));
   background-size: cover;
@@ -101,6 +117,11 @@ label.label {
   @media (min-width: 768px) {
     padding-bottom: 0;
     padding-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    max-height: 250px;
+    max-width: 100%;
   }
 }
 .main {
