@@ -2,17 +2,16 @@
 layout: application
 ---
 
-<!-- YouTube Video Embed (when we have one) -->
-<!-- <div class="section background-dark background-concept-art">
+<div class="section background-dark background-concept-art">
   <div class="container text-center">
     <div id="title-bg-crawl">
       <div align="center">
-        <iframe src="//www.youtube.com/embed/x1W9XtrswzA" height="540" width="960" allowfullscreen frameborder="0"></iframe>
+        <iframe src="//www.youtube.com/embed/5WRnR6NTY8Q" height="540" width="960" allowfullscreen frameborder="0"></iframe>
       </div>
     </div>
   </div>
 </div>
- -->
+
 
 <div class="main">
   <div class="gradient">
@@ -20,85 +19,45 @@ layout: application
       <section class="section text-center">
         <div class="col-xs-12">
           <a id="astervoid2000-logo" class="navbar-brand internal" href="/" title="astervoid2000 logo"><img src="{% asset_path astervoid-2000-logo-highres-on-dark.png %}" alt="Astervoid 2000" class="img-responsive"></a>
-
-          <h4 class="text-huge text-block-1">
-            A shiny new game ...
-          </h4>
-        </div>
-      </section>
-
-      <div class="section background-dark ship-animation">
-        <!-- autoplay only works on desktop, will need to use gif's instead (welcome to 1996) -->
-        <video width="100%" height="200" autobuffer loop preload autoplay>
-          <source src="{% asset_path pink-ship-flyby.mp4 %}" />
-        </video>
-      </div>
-
-      <section class="section text-center">
-        <div class="col-xs-12">
-          <h4 class="text-huge text-block-2">
-            ... with that classic 70's feel
-          </h4>
         </div>
       </section>
     </div>
 
     <div class="container">
       <section class="section text-center">
-        <!-- <div class="col-xs-12 col-md-12">
-          <img src="https://s3-us-west-2.amazonaws.com/astervoid2000/gifs/astervoid-2000-2016-08-08-new-melee.gif" width="512">
-        </div>
-
-        <div class="col-xs-12 col-md-6">
-          <img src="https://s3-us-west-2.amazonaws.com/astervoid2000/gifs/astervoid-2000-2016-08-08-too-many-explosions.gif" width"512">
-        </div> -->
-
         <div class="col-xs-12 col-md-12 text-center">
-          <iframe width="640" height="360" src="https://www.youtube.com/embed/5WRnR6NTY8Q" frameborder="0" allowfullscreen></iframe>
+
+          <div class="buyBlock">
+            <div class="buyWrap">
+              <div class="price" id="game_price">
+                $5
+              </div>
+              <div id="buy_button">
+                <a>
+                  <span>BUY FIRST ACCESS NOW</span>
+                </a>
+              </div>
+            </div>
+            <div class="buySub">
+              <img src="{% asset_path os_win.png %}">
+              <img src="{% asset_path os_mac.png %}">
+              <img src="{% asset_path os_linux.png %}">
+              &nbsp;PAYPAL / CREDIT CARD / BITCOIN
+            </div>
+          </div>
+
+
         </div>
       </section>
 
       <section class="section text-center">
-
-        <!-- <h4>
-          Latest Posts:
-        </h4>
-        <ul>
-          <li>
-            <a href="#blog-permalink">
-              <h2 class="text-big text-success">
-                Cheers to GDX and Extra Life!
-              </h2>
-              <h5 class="text-primary">
-                8 MAY, 2016 - LREVG
-              </h5>
-            </a>
-          </li>
-          <li>
-            <a href="#blog-permalink">
-              <h2 class="text-big text-success">
-                THANK YOU!
-              </h2>
-              <h5 class="text-primary">
-                27 NOVEMBER, 2015 - MAD CAPACITY
-              </h5>
-            </a>
-          </li>
-        </ul>
- -->
-
-        <!-- TODO: PUT EMAIL LIST SUBSCRIBE FORM HERE! -->
-
         <hr>
         <p>
-          We're aiming to release Astervoid 2000 this Winter, 2016 on Steam &amp; Itch.io.
+          Astervoid 2000 will be released this Winter, 2016 on Steam &amp; Itch.io.
+          <br>Stay updated by email:
         </p>
 
         <div class="container">
-          <p>
-            Get updates by email:
-          </p>
-
           <form method="post" action="//madcapacity.us10.list-manage.com/subscribe/post?u=ecf276e420c4b6798313c974e&amp;id=ca3853a9c7" target="_blank">
             <div class="row">
               <div class="col-xs-12">
@@ -124,59 +83,12 @@ layout: application
         <hr>
 
         <div class="container">
-          <br>You can keep up with development here:
+          <br>Keep up with development here:
 
           <h1>
             <a class="button button-huge block-mobile" href="http://blog.astervoid2000.com">Read Blog</a>
           </h1>
         </div>
-
-        <!--
-        <div class="col-xs-12 col-md-6">
-
-          <div class="post">
-            <h2 class="text-big text-success">
-              Cheers to GDX and Extra Life!
-            </h2>
-            <h5 class="text-primary">
-              8 MAY, 2016 - LREVG
-            </h5>
-
-            <img src="{% asset_path yeg-extra-life.png %}">
-
-
-            <p>
-              <a href="https://www.twitch.tv/yegextralife">YEG Extra Life</a> graciously hosted Astervoid 2000 in their 2016 GDX tournament. You can catch the VoD recap here (starts around the 3:52:00 mark) <a href="https://www.twitch.tv/yegextralife/v/65299148">GDX Astervoid 2000 tournament</a>.
-            </p>
-          </div>
-
-
-          <div class="post">
-            <div class="container section border-bottom"></div>
-
-            <div class="message-bar background-success text-big text-center">
-              <p>Green Light ... Big Success!</p>
-            </div>
-
-            <h2 class="text-big text-success">
-              THANK YOU!
-            </h2>
-            <h5 class="text-primary">
-              27 NOVEMBER, 2015 - MAD CAPACITY
-            </h5>
-            <p>
-              From the bottom of our hearts! We really appreciate the support we've received on Greenlight. I'm so happy to say that we've been successfully green lit and are looking forward to creating a fun, fast and furious couch multiplayer game!
-            </p>
-            <p>
-              Chuck and I have been dreaming about making games for a few years now. Thanks to the community we are going to achieve a goal we've had our eyes on.
-            </p>
-            <p>
-              Thank you! Thank you! Thank you!
-            </p>
-          </div>
-
-        </div>
-        -->
 
       </section>
     </div>
