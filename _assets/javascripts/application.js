@@ -25,7 +25,7 @@ $(function($) {
         var reward     = data.rewards && data.rewards[0];
 
         if ( reward ) {
-            var total = 92 + reward.amount;
+            var total = 94 + reward.amount;
             var amountRemaining = total - reward.amount_remaining;
             numKeysDiv.innerText = amountRemaining + " / " + total;
 
