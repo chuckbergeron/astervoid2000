@@ -22,6 +22,7 @@ $(function($) {
     onComplete: function(data) {
         var numKeysDiv = document.getElementById("claimed-numbers");
         var priceDiv   = document.getElementById("buy_price");
+        var keysRemainingSpan = document.getElementById("claimed_keys_remaining");
         var reward     = data.rewards && data.rewards[0];
 
         if ( reward ) {
@@ -30,6 +31,7 @@ $(function($) {
             numKeysDiv.innerText = amountRemaining + " / " + total;
 
             priceDiv.innerText = reward.price.substr(0,2);
+            keysRemainingSpan.innerText = total - amountRemaining;
         }
         else {
             numKeysDiv.innerText = "Rewards missing";
