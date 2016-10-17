@@ -26,8 +26,8 @@ $(function($) {
         var reward     = data.rewards && data.rewards[0];
 
         if ( reward ) {
-            // 97 is the # provided to internal alpha testers, press, etc
-            var total = 97 + reward.amount;
+            // 98 is the # provided to internal alpha testers, press, etc
+            var total = 98 + reward.amount;
             var amountRemaining = total - reward.amount_remaining;
             numKeysDiv.innerText = amountRemaining + " / " + total;
 
