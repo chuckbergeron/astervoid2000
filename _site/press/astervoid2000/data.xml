@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Astervoid 2000</title>
+	<release-date>25 Nov, 2016</release-date>
+	<website>http://astervoid2000.com/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name></name>
+			<link>http://www.gamesite.com/</link>
+		</platform>
+		<platform>
+			<name>Steam (Win / Mac / Linux)</name>
+			<link>http://store.steampowered.com/app/423870</link>
+		</platform>
+		<platform>
+			<name>Itch (Win / Mac / Linux)</name>
+			<link>https://madcapacity.itch.io/astervoid-2000</link>
+		</platform>
+	</platforms>
+
+	<prices>
+		<price>
+			<currency>USD</currency>
+			<value>$9.99</value>
+		</price>
+		<price>
+			<currency>EUR</currency>
+			<value>€9.99</value>
+		</price>
+		<price>
+			<currency>CAD</currency>
+			<value>$9.99</value>
+		</price>
+		<price>
+			<currency>GBP</currency>
+			<value>£6.99</value>
+		</price>
+	</prices>
+
+	<description>
+		Astervoid 2000 is a new 1 - 4 player local-multi space brawler by Justin Luk &amp; Chuck Bergeron. Inspired by the days of classic arcade gaming, but with that modern gameplay feel. Survive solo or team up to play a main role in your enemies destruction.
+	</description>
+
+	<history>
+	    Over two years in the making, Astervoid was designed from the start to be a super fun couch multiplayer experience that could be enjoyed time and time again with friends. We grew up addicted to couch multiplayer games such as Bomberman, Secret of Mana, WCW/nWo Revenge, Contra, Double Dragon, etc. -- and seeing such an amazing resurgence of this tradition with titles such was something we knew we had to be a part of.
+	</history>
+
+	<features>
+		<feature>includes a Singleplayer Survival mode, compete for the high score on the global leaderboard</feature>
+		<feature>features seriously gorgeous pixels placed by highly skilled pixel artists</feature>
+		<feature>1 bangin' original soundtrack composed by Memorecks &amp; LREVG</feature>
+		<feature>endless hours of fun destroying your friends time and time again to take the cake</feature>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Teaser Gameplay Trailer</name>
+			<youtube>5WRnR6NTY8Q</youtube>
+			<!-- <vimeo>23571681</vimeo> -->
+		</trailer>
+	</trailers>
+
+	<awards>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+	</awards>
+
+	<quotes>
+		<quote>
+			<description>This is a rather insignificant quote by a highly important person.</description>
+			<name>Person Name</name>
+			<website>Website</website>
+			<link>http://</link>
+		</quote>
+		<quote>
+			<description>An extremely positive quote from a rather insignificant person. Also great.</description>
+			<name>Some Guy</name>
+			<website>This Page Is Visited By 12 Visitors A Month</website>
+			<link>http://</link>
+		</quote>
+		<quote>
+			<description>I pretend to love this game even though I do not actually understand it.</description>
+			<name>Pretentious Bastard</name>
+			<website>Artsy Page</website>
+			<link>http://</link>
+		</quote>
+		<quote>
+			<description>HOLY SHIT SO AMAZING</description>
+			<name>Caps Guy</name>
+			<website>Angry Review</website>
+			<link>http://</link>
+		</quote>
+	</quotes>
+
+	<additionals>
+		<additional>
+			<title>Original Soundtrack</title>
+			<description>Available for free from</description>
+			<link>http://somemusicsite.com/thislink</link>
+		</additional>
+		<additional>
+			<title>Release Blog Post</title>
+			<description>The blog-post through which this game was released is available at</description>
+			<link>http://vlambeer.com/bloglink</link>
+		</additional>
+	</additionals>
+
+	<credits>
+		<credit>
+			<person>Rami Ismail</person>
+			<role>Business &amp; Development, Vlambeer</role>
+		</credit>
+		<credit>
+			<person>Jan Willem Nijman</person>
+			<role>Game Designer, Vlambeer</role>
+		</credit>
+		<credit>
+			<person>John Doe</person>
+			<role>Artist, Freelancer</role>
+		</credit>
+		<credit>
+			<person>Oliver Twist</person>
+			<website>www.olivertwist.com</website>
+			<role>Artist, Freelancer</role>
+		</credit>
+		<credit>
+			<person>Jane Doette</person>
+			<website>www.olivertwist.com</website>
+			<role>Music, Freelancer</role>
+		</credit>
+	</credits>
+</game>
