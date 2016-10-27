@@ -1,6 +1,9 @@
 dopresskit-static
 =================
 
+Notes: removed this line from layout_project.html in favour of image:
+<!-- {% block title %}{{ project.title }}{% endblock %} -->
+
 dopresskit-static is a static version of the great [Rami Ismail's presskit()](https://github.com/ramiismail/dopresskit).
 
 If you don't wan't to rely on PHP you can use it with the same xml files & directory structure as the original presskit().
