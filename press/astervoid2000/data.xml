@@ -63,27 +63,37 @@
 		</trailer>
 	</trailers>
 
+
+
 	<awards>
 		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
+			<description>GDX Team Choice Award</description>
+			<info>Edmonton, Canada. May 2016</info>
 		</award>
 		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
+			<description>GDX People's Choice Award</description>
+			<info>Edmonton, Canada. May 2016</info>
 		</award>
 		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
+			<description>Extra Life GDX Tournament Official Selection</description>
+			<info>Edmonton, Canada. May 2016</info>
 		</award>
 		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
+			<description>CUFFCade 2016 Calgary Arcade Official Selection</description>
+			<info>Calgary, Canada. April 2016</info>
+		</award>
+		<award>
+			<description>Seattle Indies Expo Official Selection</description>
+			<info>Seattle, WA. August 2015</info>
+		</award>
+		<award>
+			<description>BitBazaar 2015 Toronto Official Selection</description>
+			<info>Calgary, Canada. May 2015</info>
 		</award>
 	</awards>
 
 	<quotes>
-		<quote>
+		<!-- <quote>
 			<description>This is a rather insignificant quote by a highly important person.</description>
 			<name>Person Name</name>
 			<website>Website</website>
@@ -106,11 +116,11 @@
 			<name>Caps Guy</name>
 			<website>Angry Review</website>
 			<link>http://</link>
-		</quote>
+		</quote> -->
 	</quotes>
 
 	<additionals>
-		<additional>
+		<!-- <additional>
 			<title>Original Soundtrack</title>
 			<description>Available for free from</description>
 			<link>http://somemusicsite.com/thislink</link>
@@ -119,31 +129,37 @@
 			<title>Release Blog Post</title>
 			<description>The blog-post through which this game was released is available at</description>
 			<link>http://vlambeer.com/bloglink</link>
-		</additional>
+		</additional> -->
 	</additionals>
 
 	<credits>
 		<credit>
-			<person>Rami Ismail</person>
-			<role>Business &amp; Development, Vlambeer</role>
+			<person>Justin Luk</person>
+			<website>madcapacity.com</website>
+			<role>Business Development, Game Design, Mad Capacity</role>
 		</credit>
 		<credit>
-			<person>Jan Willem Nijman</person>
-			<role>Game Designer, Vlambeer</role>
+			<person>Chuck Bergeron</person>
+			<website>chuckbergeron.io</website>
+			<role>Business Development, Programming, LREVG</role>
 		</credit>
 		<credit>
-			<person>John Doe</person>
+			<person>Memorecks</person>
+			<website>soundcloud.com/memorecks</website>
+			<role>Musician, Freelancer</role>
+		</credit>
+		<credit>
+			<person>Sven Ruthner</person>
 			<role>Artist, Freelancer</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
+			<person>Lachlan Cartland</person>
 			<role>Artist, Freelancer</role>
 		</credit>
 		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<person>Lyndsay Wasko</person>
+			<website>lyndsaywasko.com</website>
+			<role>Artist, Freelancer</role>
 		</credit>
 	</credits>
 </game>
