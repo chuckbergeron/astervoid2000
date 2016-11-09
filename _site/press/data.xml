@@ -1,83 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- example file containing base tags -->
 
-<game>	
-	<title>Company Name</title>
-	<founding-date>September 1, 2010</founding-date>
-	<website>http://www.website.com</website>
-	<based-in>Cityville, Metropolisland</based-in>
-	
-	<press-contact>press-contact@company.com</press-contact>
-	<phone>+00 (1) 22 33 44 55 66</phone>
+<game>
+	<title>Mad Capacity &amp; LREVG</title>
+	<founding-date>December 8th, 2014</founding-date>
+	<website>http://madcapacity.com/</website>
+	<based-in>Calgary &amp; Vancouver, Canada</based-in>
+
+	<press-contact>chuck+press@lrevg.com</press-contact>
+	<phone>+1 604 440 9315</phone>
 	<address>
-		<line>Address Line 1</line>
-		<line>Address Line 2</line>
-		<line>Address Line 3</line>
+		<line>Chuck Bergeron</line>
+		<line>280 Nelson St -- Suite #523</line>
+		<line>Vancouver, BC. V6B 2E2</line>
 	</address>
 
 	<socials>
 		<social>
-			<name>twitter.com/MyCompanyName</name>
-			<link>twitter.com/MyCompanyName</link>
+			<name>Twitter @madcapacity</name>
+			<link>twitter.com/madcapacity</link>
 		</social>
 		<social>
-			<name>facebook.com/MyCompanyName</name>
-			<link>facebook.com/MyCompanyName</link>
-		</social>
-		<social>
-			<name>Skype</name>
-			<link>callto:MySkypeName</link>
+			<name>Twitter @chuckbergeron</name>
+			<link>twitter.com/chuckbergeron</link>
 		</social>
 	</socials>
 
-	<description>	
-		We're games studio and we make games. We're also capable of editing XML files.
+	<description>
+		Mad Capacity is Justin Luk. LREVG is Chuck Bergeron. Together they've teamed up to bring quality 2D games to life.
 	</description>
-		
+
 	<histories>
 		<history>
-			<header>Early history</header>
-			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis.</text>
+			<header>Early History</header>
+			<text>Justin Luk &amp; Chuck Bergeron met in Junior High school, over 20 years ago. In their youth, they loved getting together for gaming and couldn't put down the Atari, then NES, then SNES, then PlayStation, well, you get the idea.</text>
 		</history>
 		<history>
-			<header>After that</header>
-			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem dui, volutpat eu adipiscing sed, rutrum aliquam lacus. Proin sollicitudin consequat dolor id dignissim. Aliquam sem turpis, sagittis lobortis viverra eget, varius vitae nunc. Proin ac lacus porttitor dui sollicitudin elementum. Nulla ut hendrerit est. Fusce vitae arcu erat, vel molestie est. Proin et placerat justo. Proin placerat arcu massa, eu blandit leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eu lorem sed massa lobortis hendrerit vitae vel odio. Maecenas eget pulvinar tortor. Nunc vitae nisl ac odio bibendum luctus ac a leo. Suspendisse auctor elit et velit sagittis vehicula. Maecenas faucibus blandit rutrum. Duis et sem nibh. Vestibulum placerat elit et dui rhoncus accumsan.</text>
+			<header>Recent History</header>
+			<text>We have a confession to make. We watched Indie Game: The Movie and were inspired to start making games. Yes. We're those guys. Thankfully, we've been programming and designing various software creations for over 25 combined years, so we know how to create beautiful &amp; memorable digital experiences.</text>
 		</history>
 	</histories>
-		
+
 	<trailers>
 		<trailer>
-			<name>This video is nice</name>
-			<youtube>7jQbITg0MSk</youtube>
-		</trailer>
-		<trailer>
-			<name>This one too</name>
-			<youtube>0CevOaYrYDA</youtube>
-			<vimeo>12536488</vimeo>
+			<name>Astervoid 2000 Gameplay Teaser Trailer</name>
+			<youtube>5WRnR6NTY8Q</youtube>
+			<!-- <vimeo>12536488</vimeo> -->
 		</trailer>
 	</trailers>
-	
+
 	<awards>
 		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
+			<description>GDX Team Choice Award</description>
+			<info>Edmonton, Canada. May 2016</info>
 		</award>
 		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
+			<description>GDX People's Choice Award</description>
+			<info>Edmonton, Canada. May 2016</info>
 		</award>
 		<award>
-			<description>Winner in this highly relevant contest.</description>
-			<info>Award Location, 20 October, 1989</info>
+			<description>Extra Life GDX Tournament Official Selection</description>
+			<info>Edmonton, Canada. May 2016</info>
 		</award>
 		<award>
-			<description>Nomination for this prestigious award.</description>
-			<info>Award Ceremony, 4 December, 1991</info>
+			<description>CUFFCade 2016 Calgary Arcade Official Selection</description>
+			<info>Calgary, Canada. April 2016</info>
+		</award>
+		<award>
+			<description>Seattle Indies Expo Official Selection</description>
+			<info>Seattle, WA. August 2015</info>
+		</award>
+		<award>
+			<description>BitBazaar 2015 Toronto Official Selection</description>
+			<info>Calgary, Canada. May 2015</info>
 		</award>
 	</awards>
-	
+
+
 	<quotes>
-		<quote>
+		<!-- <quote>
 			<description>This is a rather insignificant quote by a highly important person.</description>
 			<name>Person Name</name>
 			<website>Website</website>
@@ -100,55 +101,55 @@
 			<name>Caps Guy</name>
 			<website>Angry Review</website>
 			<link>http://thispage.net/angrytube</link>
-		</quote>
+		</quote> -->
 	</quotes>
-	
+
 	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
 	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
 																			 	ask (permission on case-per-case basis),
 																			 	non-commercial (no monetization allowed),
-																			 	monetize (full permission) -->	
+																			 	monetize (full permission) -->
 	<additionals>
-		<additional>
+		<!-- <additional>
 			<title>Company Link #1</title>
 			<description>This link is a link that might be useful. You can check it out at</description>
 			<link>http://somemusicsite.com/thislink</link>
-		</additional>
+		</additional> -->
 	</additionals>
-	
+
 	<credits>
 		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
+			<person>Justin Luk</person>
+			<website>madcapacity.com</website>
+			<role>Business Development, Game Design, Mad Capacity</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
-		</credit>
-		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<person>Chuck Bergeron</person>
+			<website>chuckbergeron.io</website>
+			<role>Business Development, Programming, LREVG</role>
 		</credit>
 	</credits>
-	
+
 	<contacts>
 		<contact>
 			<name>Inquiries</name>
-			<mail>rami@vlambeer.com</mail>
+			<mail>chuck+press@lrevg.com</mail>
 		</contact>
 		<contact>
-			<name>Twitter</name>
-			<link>http://twitter.com/MyCompanyName</link>
+			<name>Twitter -- Justin Luk</name>
+			<link>http://twitter.com/madcapacity</link>
 		</contact>
 		<contact>
-			<name>Facebook</name>
-			<link>http://facebook.com/MyCompanyName</link>
+			<name>Twitter -- Chuck Bergeron</name>
+			<link>http://twitter.com/chuckbergeron</link>
 		</contact>
 		<contact>
-			<name>Web</name>
-			<link>MyCompanyWebsite.com</link>
+			<name>Mad Capacity Site</name>
+			<link>madcapacity.com</link>
+		</contact>
+		<contact>
+			<name>LREVG Site</name>
+			<link>soundcloud.com/lrevg</link>
 		</contact>
 	</contacts>
 </game>

@@ -1,5 +1,5 @@
 body {
-	padding: 15px 0;
+	padding: 40px 0;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 0.9em;
 	line-height:1.6em;
@@ -9,13 +9,25 @@ img {
 	width: 100%;
 }
 
+p.attribution {
+	color: #ccc;
+}
+p.attribution a {
+	color: #aaa;
+}
+
+h1, .uk-h1 {
+	font-family: 'Munro Small', sans-serif;
+	font-size: 40px;
+}
+
 #navigation h1.nav-header {
-	padding: 0 15px;
+	padding: 0 0;
 	margin-bottom: 0;
 }
 
 #navigation a.nav-header {
-	padding: 5px 15px;
+	padding: 5px 0;
 	font-weight: bold;
 }
 
@@ -27,12 +39,18 @@ img {
 	padding-bottom: 10px;
 }
 
+.uk-nav>li>a {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 #navigation li.language-select select {
 	float: right;
 }
 
 #content h2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Munro Small', sans-serif;
+	font-size: 30px;
 }
 
 #content img.header {
@@ -58,7 +76,7 @@ img {
 
 #content .iframe-container {
 	position: relative;
-	/* Magic! Makes sure the container is high enough to show the entire iframe 
+	/* Magic! Makes sure the container is high enough to show the entire iframe
 	 * Thanks to http://andmag.se/2011/11/responsive-embeds/ */
 	padding-bottom: 56.5%;
 }
